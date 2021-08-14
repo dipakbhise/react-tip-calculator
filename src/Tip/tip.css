@@ -1,0 +1,109 @@
+.middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 80vh; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/src/Tip/pexels-andrea-piacquadio-3769740.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.heading{
+    padding: 8px 10px;
+    background-color: white;
+    color: red;
+    border-radius: 0 20px;
+    margin-top: 20px;
+
+}
+
+.space{
+    margin-top: 20px;
+}
+
+.labels{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+label{
+    padding: 5px 0;
+}
+
+input{
+    background-color: transparent;
+    color: white;
+    border-radius: 0 20px;
+    padding: 17px 30px;
+    border: 1px solid white;
+    width: 300px;
+}
+
+:focus{
+    outline: none;
+}
+
+select{
+    padding: 17px 60px;
+    background-color: transparent;
+    color: white;
+    border-radius: 0 20px;
+    border: 1px solid white;
+    cursor: pointer;
+    
+}
+
+option{
+color: black;
+padding: 10px;
+
+}
+
+button{
+    padding: 15px 60px;
+    background-color: blue;
+    color: white;
+    border-radius: 0 20px;
+    border: 1px solid blue;
+    cursor: pointer;
+
+}
+
+.customers{
+    padding: 20px 500px;
+    /* width: 400px; */
+    border: 1px solid white;
+    margin: 20px;
+}
+
+.customernumbers{
+
+    margin: 20px;
+}
+
+td{
+    padding-top: 15px;
+}
+
+th{
+    background-color: red;
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin: 0 120px;
+    width: 50px;
+}
+
+li{
+    margin-top: 20px;
+}
